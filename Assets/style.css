@@ -1,10 +1,9 @@
-
+/* Color variable */
 :root {
     --light: aqua; 
 }
 
-
-*, *::before, *::after {
+* {
     box-sizing: border-box;
 }
 
@@ -12,11 +11,12 @@ body {
     font-family:Arial, Helvetica, sans-serif;
 }
 
-h1 (
+h1 {
     text-align: center;
+    background-color: var(--light);
     padding-top: 0px;
-    font-size: 21px;
-)
+    font-size: 25px;
+}
 
 h2 {
     font-size: 23px;
@@ -43,6 +43,12 @@ p {
     color:blue;
 }
 
+
+#initials {
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+}
 #submit {
     border-radius: 6px;
     text-align: center;
@@ -54,14 +60,14 @@ ul li:hover {
 }
 
 form {
-    display: block;
+    display:contents;
     margin: 30px;
-    text-align: left;
+    text-align: center;
     /* box-shadow: 0 4px 8px 0 rgba(red, green, blue, alpha); */
     width: vw;
     background-color: var(--light);
-    border-radius: 11px;
-    padding: 20px;
+    border-radius:0%;
+    padding: 10px;
     line-height: 2;
 }
 
