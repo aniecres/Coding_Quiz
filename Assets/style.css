@@ -1,4 +1,10 @@
-* {
+
+:root {
+    --light: aqua; 
+}
+
+
+*, *::before, *::after {
     box-sizing: border-box;
 }
 
@@ -18,4 +24,72 @@ h2 {
     max-width: 800px;
     padding: 40px;
     text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+.quiz {
+    text-align: center;
+    font-size: 23px;
+    padding: 30px;
+    background-color: var(--light);
+
+}
+
+#answers {
+    text-align: center;
+    color:blue;
+}
+
+#submit {
+    border-radius: 6px;
+    text-align: center;
+    background-color: var(--light);
+}
+
+ul li:hover {
+    background-color:black;
+}
+
+form {
+    display: block;
+    margin: 30px;
+    text-align: left;
+    /* box-shadow: 0 4px 8px 0 rgba(red, green, blue, alpha); */
+    width: vw;
+    background-color: var(--light);
+    border-radius: 11px;
+    padding: 20px;
+    line-height: 2;
+}
+
+.btn {
+    border: none;
+    background-color: var(--light);
+    border-radius: 11px;
+    color: hsl(hue, saturation, lightness);
+    display: inline-block;
+    font-size: 22px;
+    margin: 25px 11px 16 px 20px;
+    padding: 14px 34px;
+    text-align: center;
+    cursor: pointer;
+    margin-left: 43%;
+}
+
+@media (max-width: 690px;) {
+    .btn {
+        font-size: 1rem;
+        margin: 16px 0px, 0px, 0px;
+        padding: 10px 15px;
+    }
+}
+
+@media (max-width: 500px) {
+    .btn {
+        font-size: 0.8rem;
+    }
+    
 }
