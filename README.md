@@ -31,6 +31,7 @@ THEN I can save my initials and score
 
 ## Screenshots of Work
 
-![](https://file%2B.vscode-resource.vscode-cdn.net/var/folders/2m/6clk9c2n4hn7320xgd94h48h0000gn/T/TemporaryItems/NSIRD_screencaptureui_fmjGp3/Screen%20Shot%202022-10-24%20at%205.34.15%20PM.png?version%3D1666647278379)
+![Screen Shot 2022-10-24 at 5 34 02 PM (2)](https://user-images.githubusercontent.com/111096788/197635148-e71ed17a-925d-472e-ac6a-26ec9e285c2f.png)
+
 
 ## Links
