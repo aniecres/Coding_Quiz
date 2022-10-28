@@ -1,0 +1,21 @@
+:root {
+    --light: aqua; 
+}
+
+* {
+    box-sizing: border-box;
+    background-color: black;
+    color: var(--light);
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.button { 
+ border: none;
+ background-color: var(--light);
+ color: black;
+ display: inline;
+}
