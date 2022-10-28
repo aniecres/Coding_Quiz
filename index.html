@@ -1,49 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Javascript Quiz Code</title>
-    <link rel="stylesheet" href="./Assets/style.css">
-</head>
+    <link rel="stylesheet" href="./Assets/style.css" />
+  </head>
 
-<body> 
-    <header> 
-        <button id="highScoreButton" class="button">View Highscores</button> 
-        <!-- timer -->
-        <div id="timer"></div>
-     </header>
+  <body>
+    <header>
+      <button id="highScoreButton" class="button">View Highscores</button>
+      <!-- timer -->
+      <div id="timer"></div>
+    </header>
 
-     <main>
+    <main>
+      <div class="topSection">
         <h1 id="title">JavaScript Coding Quiz</h1>
-        <p id="directions">Come and take this 5 question quiz to see of you understand JavaScript!</p>
-        <button id="startButton" class="button">Start</button>    
-
+        <p id="directions">
+          Come and take this 5 question quiz to see of you understand
+          JavaScript!
+        </p>
+    </div>
+    
+    <div class="questionsAnswers">
         <!-- Questions/Answers -->
-        <ul>
+        <div id="questions"></div>
+        <div id="answers"></div>
+        <button id="startButton" class="button">Start</button>
+      </div>
 
-        </ul>
-
-        <!-- Submit/End and shows final score-->
-        <div id="submitScore"> 
-            <p>Your results are in <span id="spanScore"></span> </p>
-            <div id="highscoreInput">
-                <p>Name</p>
-                <input type="text" id="initials" name="initials" value="">
-                <button id="submitScore" class="button">Submit</button>
-            </div>
+      <!-- Submit/End and shows final score-->
+      <div id="submitScore">
+        <p>Your results are in <span id="spanScore"></span></p>
+        <div id="highscoreInput">
+          <input
+            type="text"
+            id="initials"
+            name="initials"
+            placeholder="Initials"
+          />
+          <button id="submitScore" class="button">Submit</button>
         </div>
-        <div id="displayScore">
+      </div>
+
+      <div id="displayScore">
         <h2>High Score</h2>
-         <!-- Back to game buttons -->
+        <!-- Back to game buttons -->
         <button id="backToStartButton" class="button">Go Back</button>
         <button id="clearScore" class="button">Clear Score</button>
-         </div>
-     </main>
+      </div>
+    </main>
 
-     <script src="Assets/script.js"></script>
-</body>
+    <script src="./Assets/script.js"></script>
+  </body>
 </html>
-
- 
