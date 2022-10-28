@@ -31,7 +31,7 @@ THEN I can save my initials and score
 
 ## Screenshots of Work
 
-![screencapture-file-Users-anavidcrespo-Desktop-CodingQuiz-index-html-2022-10-27-16_53_42](https://user-images.githubusercontent.com/111096788/198395946-1a83bfae-698a-4f07-83f3-7e637d936912.png)
+![screencapture-file-Users-anavidcrespo-Desktop-CodingQuiz-index-html-2022-10-27-22_41_01](https://user-images.githubusercontent.com/111096788/198478721-c952cd96-4933-4d34-8a0c-c05f341d31c3.png)
 
 
 
