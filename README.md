@@ -36,3 +36,5 @@ THEN I can save my initials and score
 
 
 ## Link to Deployed Site
+https://aniecres.github.io/Coding_Quiz/
+https://github.com/aniecres/Coding_Quiz
