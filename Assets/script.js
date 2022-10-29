@@ -7,16 +7,43 @@ let time = document.getElementById('timerTag');
 
  
 
+ function startQuiz() {
+   const questions = document.createElement("div");
+    questions.className = "questionBox";
+}
+startBtn.addEventListener('click', startQuiz)
 
-highScoresBtn.addEventListener('click', myFunction);
- function myFunction() {
-    
- }
 
- const questions = [
+const questions = [
     {
         question: "Inside which HTML element do we put the JavaScript?",
-        answers: {"<script>", "<js>", "<scirpt>", "<javascript>"}
+        answers: ["<script>", "<js>", "<scirpt>", "<javascript>"], 
+        correctAns: "<script>"
+    },
+
+    {
+        question: "Inside which HTML element do we put the JavaScript?",
+        answers: ["<script>", "<js>", "<scirpt>", "<javascript>"], 
+        correctAns: "<script>"
+    },
+
+    {
+        question: "Inside which HTML element do we put the JavaScript?",
+        answers: ["<script>", "<js>", "<scirpt>", "<javascript>"], 
+        correctAns: "<script>"
+    },
+
+    {
+        question: "Inside which HTML element do we put the JavaScript?",
+        answers: ["<script>", "<js>", "<scirpt>", "<javascript>"], 
+        correctAns: "<script>"
+    },
+
+    {
+        question: "Inside which HTML element do we put the JavaScript?",
+        answers: ["<script>", "<js>", "<scirpt>", "<javascript>"], 
         correctAns: "<script>"
     }
  ]
+ 
+ 
